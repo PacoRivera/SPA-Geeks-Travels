@@ -1,0 +1,43 @@
+ {
+        "0":{
+            "imagen":"https://www.recordrentacar.com/images/beforefooter/destinos/alquiler-coches-madrid.jpg",
+            "nombre":"Madrid",
+            "validez":"lunes a jueves",
+            "Hospedaje":"Hotel",
+            "Paquete":"individual",
+            "Vuelo":"Ida",
+            "precio":"6,000",
+            "moneda":"MXN"
+        },
+        "1":{
+            "imagen":"https://www.recordrentacar.com/images/beforefooter/destinos/alquiler-coches-madrid.jpg",
+            "nombre":"Madrid",
+            "validez":"lunes a jueves",
+            "Hospedaje":"Hotel",
+            "Paquete":"individual",
+            "Vuelo":"Ida",
+            "precio":"6,000",
+            "moneda":"MXN"
+        },
+        "2":{
+            "imagen":"https://www.recordrentacar.com/images/beforefooter/destinos/alquiler-coches-madrid.jpg",
+            "nombre":"Madrid",
+            "validez":"lunes a jueves",
+            "Hospedaje":"Hotel",
+            "Paquete":"individual",
+            "Vuelo":"Ida",
+            "precio":"6,000",
+            "moneda":"MXN"
+        },
+        "3":{
+            "imagen":"https://www.recordrentacar.com/images/beforefooter/destinos/alquiler-coches-madrid.jpg",
+            "nombre":"Madrid",
+            "validez":"lunes a jueves",
+            "Hospedaje":"Hotel",
+            "Paquete":"individual",
+            "Vuelo":"Ida",
+            "precio":"6,000",
+            "moneda":"MXN"
+        }
+        
+    }
