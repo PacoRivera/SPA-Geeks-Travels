@@ -82,3 +82,10 @@ var creaDestinos = function(clave, valor) {
     });
    
 // });
+
+$("#Ofertas-Cul").on("click", function(){
+    var posicion = $("#Ofertas-Cultural").offset().top;
+    $("html, body").animate({
+        scrollTop: posicion
+    }, 1000); 
+});
