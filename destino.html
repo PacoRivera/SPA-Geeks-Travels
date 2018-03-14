@@ -13,8 +13,8 @@
 
 <body>
     <section id="head">
-        <div id="nav-travels">
-
+        <div class="atras">
+                <span> <a href="index.html"><img src="assets/atras.svg" alt=""></a> </span>
         </div>
 
         <div class="contenedor-img-principal col-sm-12 col-md-12">
@@ -65,22 +65,123 @@
 <section id="botones">
         <div class="panel panel-default-destinosEspecifico">
                 <div class="panel-body panel-body-destinoEspecifico">
-                        <div class="col-xs-4 col-xs-offset-1"><a class="btn btn-default btn-lg " href="#" role="button">Opiniones</a></div>
-                        <div class="col-xs-4 col-xs-offset-1"><a class="btn btn-primary btn-lg " href="#" role="button">Reservar</a></div>
+                        <div class="col-xs-4 col-xs-offset-1"><a id="btn-descubre" class="btn btn-default btn-lg ">Opiniones</a></div>
+                        <div class="col-xs-4 col-xs-offset-1"><a id="boton-reservar" class="btn btn-primary btn-lg ">Reservar</a></div>
                 </div>
               </div>
 </section>
-<section>
+<section id="reservar">
+        <div id="div-reservar" >
+				<div class="col-md-6">
+					<div class="gray-block"></div>
+				</div>
+				<div class="col-md-6">
+					<p>E: mail@sample</p>
+					<p>P: 55-44-55-66-44</p>
+					<br>
+					<p>Give us a call or drop by anytime, we edeavour to answer all enwuiries within 24 hours on business days.</p>
+					<p>We're open from 8:30 AM - 4:00PM week days.-</p>
+					<form>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" class="form-control" id="name" placeholder="Name">
+								</div>
+								<div class="form-group">
+									<input type="email" class="form-control" id="email" placeholder="Email">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" class="form-control" id="Phone" placeholder="Phone">
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control" id="country" placeholder="Country">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<textarea class="form-control" rows="3"></textarea>
+								<button type="submit" class="btn btn-primary center-block">Enviar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+</section>
+<section id="opiniones">
+        <div class="panel panel-default div-opinion">
+                <div class="panel-body ">
+                        <div class="contenedor-about-derecho col-xs-12 ">
+
+                                <div class="row  col-xs-12">
+                
+                                    <div class="row opinion">
+                                        <div class="perfil-opinion col-xs-3">
+                                            <div class="img-opinion col-xs-6 col-xs-offset-3">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Official_Portrait_of_President_Donald_Trump.jpg/1200px-Official_Portrait_of_President_Donald_Trump.jpg"
+                                                    alt="imagen-perfil" class="img-circle">
+                                            </div>
+                                            <div class="nombre-opinion col-xs-6 col-xs-offset-3">
+                                                <p>PacoRivera</p>
+                                            </div>
+                                        </div>
+                                        <div class="letras-opinion col-xs-9">
+                                            <h5>Siempre he tenido una gran experiencia...</h5>
+                                        </div>
+                                    </div>
+                
+                
+                
+                                    <div class="row opinion">
+                                        <div class="letras-opinion-derecho col-xs-9">
+                                            <h5>Siempre he tenido una gran experiencia...</h5>
+                                        </div>
+                                        <div class="perfil-opinion col-xs-3">
+                
+                                            <div class="img-opinion col-xs-6 col-xs-offset-3">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Official_Portrait_of_President_Donald_Trump.jpg/1200px-Official_Portrait_of_President_Donald_Trump.jpg"
+                                                    alt="imagen-perfil" class="img-circle">
+                                            </div>
+                                            <div class="nombre-opinion col-xs-6 col-xs-offset-3">
+                                                <p>PacoRivera</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                
+                
+                                    <div class="row opinion">
+                                        <div class="perfil-opinion col-xs-3">
+                                            <div class="img-opinion col-xs-6 col-xs-offset-3">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Official_Portrait_of_President_Donald_Trump.jpg/1200px-Official_Portrait_of_President_Donald_Trump.jpg"
+                                                    alt="imagen-perfil" class="img-circle">
+                                            </div>
+                                            <div class="nombre-opinion col-xs-6 col-xs-offset-3">
+                                                <p>PacoRivera</p>
+                                            </div>
+                                        </div>
+                                        <div class="letras-opinion col-xs-9">
+                                            <h5>Siempre he tenido una gran experiencia...</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                            </div>
+                </div>
+              </div>
+        
+</section>
+<section id="info-adicional">
     <div class="informacion-adicional">
             <div class="panel panel-default">
                     <div class="panel-body">
                         <h2>Conce tu Destino!</h2>
                             <p>Capital de España y conocida habitualmente como Villa y Corte, Madrid es la mayor ciudad del país y la segunda de la Unión Europea con una población de más de 3 millones de habitantes (más de 6 en el área metropolitana).</p>
                     </div>
-                  </div>
+            </div>
     </div>
 </section>
-<section>
+<section id="mapa">
         <div class="informacion-adicional">
                 <div class="panel panel-default">
                         <div>
@@ -92,92 +193,94 @@
     </section>
 
     <section id="footer">
-        <div class="contenedor-footer">
-            <footer class="contenedor-footer-travels">
-                <div class="container-fluid ">
-                    <div class="row">
-                        <div class="col-md-3 col-md-offset-1">
-                            <p class="lead">
-                                <strong>¿Necesitas Ayuda?</strong>
-                            </p>
-                            <p>Llámanos: 026 4123 4567</p>
-                            <p>O envíanos un correo a:
-                                <a href="mailto:enquiry@geekshubstravels.com" target="_top">enquiry@geekshubstravels.com</a>
-                            </p>
-                        </div>
-
-                        <div class="col-md-3">
-                            <p class="lead">
-                                <strong>Información</strong>
-                            </p>
-
-                            <ul class="list-unstyled col-xs-6 col-md-12">
-                                <li>
-                                    <a href="">Quiénes somos...</a>
-                                </li>
-                                <li>
-                                    <a href="">Preguntas frecuentes</a>
-                                </li>
-                                <li>
-                                    <a href="">Política de Privacidad</a>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled col-xs-6 col-md-12">
-                                <li>
-                                    <a href="">Condiciones Generales</a>
-                                </li>
-                                <li>
-                                    <a href="">Aviso Legal</a>
-                                </li>
-                                <li>
-                                    <a href="">Contacto</a>
-                                </li>
-                                <li>
-                                    <a href="">Programa de Puntos</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="col-md-3">
-                            <form class="form-horizontal">
-                                <div class="form-group">
-                                    <label for="inputEmail3" class="col-sm-2 control-label">Correo</label>
-                                    <div class="col-sm-12">
-                                        <input type="email" class="form-control" id="inputEmail" placeholder="tucorreo@mail.com">
+            <div class="contenedor-footer">
+                <footer class="contenedor-footer-travels">
+                    <div class="container-fluid ">
+                        <div class="row">
+                            <div class="col-md-3 col-md-offset-1">
+                                <p class="lead">
+                                    <strong>¿Necesitas Ayuda?</strong>
+                                </p>
+                                <p>Llámanos: 026 4123 4567</p>
+                                <p>O envíanos un correo a:
+                                    <a href="mailto:enquiry@geekshubstravels.com" target="_top">enquiry@geekshubstravels.com</a>
+                                </p>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <p class="lead">
+                                    <strong>Información</strong>
+                                </p>
+    
+                                <ul class="list-unstyled col-xs-6 col-md-12">
+                                    <li>
+                                        <a href="">Quiénes somos...</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Preguntas frecuentes</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Política de Privacidad</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled col-xs-6 col-md-12">
+                                    <li>
+                                        <a href="">Condiciones Generales</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Aviso Legal</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Contacto</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Programa de Puntos</a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <form class="form-horizontal">
+                                    <div class="form-group">
+                                        <label for="inputEmail3" class="col-sm-2 control-label">Correo</label>
+                                        <div class="col-sm-12">
+                                            <input type="email" class="form-control" id="inputEmail" placeholder="tucorreo@mail.com">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-sm-offset-2 col-sm-10">
-                                        <button type="submit" class="btn btn-primary">Suscríbeme!</button>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10">
+                                            <button type="submit" class="btn btn-primary">Suscríbeme!</button>
+                                        </div>
                                     </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="container-fluid contenedor-footer-travels-2">
+                                <div class="row ">
+                                    <hr class="col-md-4 col-md-offset-4">
                                 </div>
-                            </form>
+                                <div class="row">
+                                    <span class="col-md-4 col-md-offset-4">
+                                        <p class="text-center">
+                                            <span class="glyphicon glyphicon-copyright-mark"></span> Copyright
+                                        </p>
+                                    </span>
+                                </div>
+                                <p class="lead text-center ">GeeksHubsTravels 2018</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="container-fluid contenedor-footer-travels-2">
-                            <div class="row ">
-                                <hr class="col-md-4 col-md-offset-4">
-                            </div>
-                            <div class="row">
-                                <span class="col-md-4 col-md-offset-4">
-                                    <p class="text-center">
-                                        <span class="glyphicon glyphicon-copyright-mark"></span> Copyright
-                                    </p>
-                                </span>
-                            </div>
-                            <p class="lead text-center ">GeeksHubsTravels 2018</p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
-    </section>
+                </footer>
+            </div>
+        </section>
+    
+
 
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/destino.js"></script>
 </body>
 
 </html>
