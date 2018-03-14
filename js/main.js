@@ -8,7 +8,8 @@ let destinos =
         "Paquete":"individual",
         "Vuelo":"Ida",
         "precio":"6,000",
-        "moneda":"MXN"
+        "moneda":"MXN",
+        "precioAnterior":"9,000"
     },
     "1":{
         "imagen":"https://www.recordrentacar.com/images/beforefooter/destinos/alquiler-coches-madrid.jpg",
@@ -18,7 +19,8 @@ let destinos =
         "Paquete":"individual",
         "Vuelo":"Ida",
         "precio":"6,000",
-        "moneda":"MXN"
+        "moneda":"MXN",
+        "precioAnterior":"9,000"
     },
     "2":{
         "imagen":"https://www.recordrentacar.com/images/beforefooter/destinos/alquiler-coches-madrid.jpg",
@@ -28,29 +30,20 @@ let destinos =
         "Paquete":"individual",
         "Vuelo":"Ida",
         "precio":"6,000",
-        "moneda":"MXN"
-    },
-    "3":{
-        "imagen":"https://www.recordrentacar.com/images/beforefooter/destinos/alquiler-coches-madrid.jpg",
-        "nombre":"Madrid",
-        "validez":"lunes a jueves",
-        "Hospedaje":"Hotel",
-        "Paquete":"individual",
-        "Vuelo":"Ida",
-        "precio":"6,000",
-        "moneda":"MXN"
+        "moneda":"MXN",
+        "precioAnterior":"9,000"
     }
     
 };
 
 
 var creaDestinos = function(clave, valor) {
-    let nuevoDestino = '<div class="panel panel-default panel-default-ofertas">'+
+    let nuevoDestino = '<div class="panel panel-default panel-default-ofertas col-md-4">'+
       '<div class="panel-body panel-body-ofertas">'+
-        '<div class="img-ofertas col-xs-3 ">'+
+        '<div class="img-ofertas col-xs-3 col-md-12 ">'+
           '<img src="'+valor.imagen+'" alt="destinos">'+
         '</div>'+
-        '<div class="info-ofertas col-xs-6">'+
+        '<div class="info-ofertas col-xs-6 col-md-9">'+
             '<div class="row titulo-oferta col-xs-12">'+
               '<h4>'+valor.nombre+'</h4>'+
            ' </div>'+
@@ -72,15 +65,15 @@ var creaDestinos = function(clave, valor) {
              ' </div>'+
             '</div>'+
         '</div>'+
-        '<div class="precio-ofertas col-xs-3">'+
-          '<s><p>21,600</p></s>'+
+        '<div class="precio-ofertas col-xs-3 col-md-3">'+
+          '<s><p>'+valor.precioAnterior+'</p></s>'+
             '<big><strong><p>'+valor.precio+'</p></strong></big>'+
             '<h4>+'+valor.moneda+'</h4>'+
         '</div>'+
       '</div>'+
     '</div>'
     
-    $('#Ofertas').append(nuevoDestino);
+    $('.Ofertas-sol').append(nuevoDestino);
 }
 
 // $.getJSON('js/lista.json',function(datos){

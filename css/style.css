@@ -1,7 +1,15 @@
+h2{
+    text-align: center;
+    margin: 50px;
+}
+
 #nav-travels{
     position: fixed;
     z-index: 1;
     width: 100%;
+}
+.ofertas-sol-margin{
+    margin: 0;
 }
 .navbar-travels{
     margin-bottom: 0;
@@ -10,6 +18,7 @@
 .navbar-brand-travels{
     width: 100px;
     float: right;
+    margin-right: 20px;
 }
 .boton-menu{
     float: left;
@@ -27,6 +36,7 @@
 }
 .contenedor-img-principal{
     padding: 0;
+    float: inherit;
 }
 .contenedor-img-principal img {
     margin-top: 50px;                                                                                                                                                                                                                                                                                                     
@@ -38,14 +48,13 @@
 .info-ofertas{
     padding-right: 0;
 }
-.panel-default-ofertas{
-    margin: 10px 4px 0px 4px;
-}
+
 .panel-body-ofertas{
     padding: 4px;
 }
 .img-ofertas{
     padding: 30px 0px 30px 0;
+    
 }
 .img-ofertas img{
  width: 100%;
@@ -59,6 +68,7 @@
 }
 .icon-info{
     text-align: left;
+    padding-right: 0;
 }
 .titulo-oferta{
     text-align: center;
