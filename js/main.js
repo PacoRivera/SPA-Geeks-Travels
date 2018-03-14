@@ -38,7 +38,7 @@ let destinos =
 
 
 var creaDestinos = function(clave, valor) {
-    let nuevoDestino = '<div class="panel panel-default panel-default-ofertas col-md-4">'+
+    let nuevoDestino = '<div class="panel panel-default panel-default-ofertas col-md-4"><a href="destino.html">'+
       '<div class="panel-body panel-body-ofertas">'+
         '<div class="img-ofertas col-xs-3 col-md-12 ">'+
           '<img src="'+valor.imagen+'" alt="destinos">'+
@@ -71,7 +71,7 @@ var creaDestinos = function(clave, valor) {
             '<h4>+'+valor.moneda+'</h4>'+
         '</div>'+
       '</div>'+
-    '</div>'
+    ' </a></div>'
     
     $('.Ofertas-sol').append(nuevoDestino);
 }
