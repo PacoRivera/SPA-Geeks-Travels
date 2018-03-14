@@ -83,9 +83,28 @@ var creaDestinos = function(clave, valor) {
    
 // });
 
-$("#Ofertas-Cul").on("click", function(){
-    var posicion = $("#Ofertas-Cultural").offset().top;
-    $("html, body").animate({
-        scrollTop: posicion
-    }, 1000); 
-});
+// let scroll = {
+//     'CulturalHistorico':{
+//         "id":"Ofertas-Cul",
+//         "href":"Ofertas-Cultural"
+//     },
+//     'NaturalExotico':{
+//         "id":"Ofertas-Nat",
+//         "href":"Ofertas-Naturall"
+//     },
+//     'Metropolitano':{
+//         "id":"Ofertas-metro",
+//         "href":"Ofertas-metropolitano"
+//     },
+//     'solPlaya':{
+//         "id":"Ofertas-so",
+//         "href":"Ofertas-sol"
+//     }
+// }
+
+// $('#Ofertas-Nat').on("click", function(){
+//     var posicion = $(" #Ofertas-sol").offset().top;
+//     $("html, body").animate({
+//         scrollTop: posicion
+//     }, 1000); 
+// });

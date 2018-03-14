@@ -5,7 +5,7 @@ h2{
 
 #nav-travels{
     position: fixed;
-    z-index: 1;
+    z-index: 5;
     width: 100%;
 }
 .ofertas-sol-margin{
@@ -43,6 +43,15 @@ h2{
     width: 100%;
     height: 50%;
 }
+.redes{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 80%;
+    z-index: 1;
+}
+.redes img{
+ width: 50px;
+}
 
 
 .info-ofertas{
@@ -79,9 +88,70 @@ h2{
     flex-direction: column;
     padding-top: 15px;
 }
+
+.menu-destino:hover{
+    background-color: #57adda;
+}
+
+
+
+.contenedor-footer{
+    margin-top: 50px;
+}
+.contenedor-footer-travels{
+    background-color: #6fc8f9;
+}
+.contenedor-footer-travels-2{
+    background-color: #57adda;
+}
+.list-unstyled a {
+    text-decoration: none;
+    color: #333;
+}
+.list-unstyled a:hover {
+    color:black;
+}
+
+
+@media only screen and (max-width: 1059px) {
+    .redes img{
+        width: 40px;
+       }
+}
+
+@media only screen and (max-width: 1000px) {
+    .redes img{
+        width: 35px;
+       }
+}
+@media only screen and (max-width: 859px) {
+    .redes img{
+        width: 30px;
+       }
+}
+@media only screen and (max-width: 767px) {
+    .redes img{
+        width: 25px;
+       }
+       .redes{
+       
+        margin-left: 70%;
+       
+    }
+}
 @media only screen and (max-width: 400px) {
     .contennedor-navbar-collapse{
         position: absolute; 
         z-index: 1;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     }
+}
+@media only screen and (max-width: 500px) {
+    .redes img{
+        width: 25px;
+       }
+}
+@media only screen and (max-width: 370px) {
+    .redes img{
+        width: 20px;
+       }
 }
