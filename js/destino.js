@@ -5,3 +5,4 @@ $("#btn-descubre").click(function () {
 $("#boton-reservar").click(function () {
     $("#div-reservar").slideToggle("slow");
 });
+

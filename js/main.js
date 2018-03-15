@@ -83,6 +83,20 @@ var creaDestinos = function(clave, valor) {
    
 // });
 
+
+
+function mediaSize() { 
+  if (window.matchMedia('(min-width: 992px)').matches) {
+    $( ".panel-default-ofertas" ).click(function() {
+      $("#cuadro-destino>iframe").slideToggle("slow");
+    });
+    
+  } else {
+  
+  }
+};
+
+
 // let scroll = {
 //     'CulturalHistorico':{
 //         "id":"Ofertas-Cul",

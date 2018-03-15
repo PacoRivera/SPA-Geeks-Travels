@@ -154,3 +154,11 @@ h2{
 .letras-opinion, .letras-opinion-derecho h5 {
     text-align: center;
 }
+
+/* @media only screen and (min-width: 900px) {
+    body{
+        width: 600px;
+        height: 600px;
+        float: right;
+    }
+} */

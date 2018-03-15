@@ -117,6 +117,17 @@ h2{
 }
 
 
+#cuadro-destino iframe{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-right: 0;
+    margin-left: 50%;
+    width: 50%;
+     height: 600px;
+}
+
+
 @media only screen and (max-width: 1059px) {
     .redes img{
         width: 40px;
