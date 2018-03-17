@@ -124,10 +124,13 @@ h2{
     margin-right: 0;
     margin-left: 50%;
     width: 50%;
-     height: 600px;
+     height: 300px;
 }
 
-
+.modal-body iframe {
+    width: 100%;
+    height: 600px;
+}
 @media only screen and (max-width: 1059px) {
     .redes img{
         width: 40px;
